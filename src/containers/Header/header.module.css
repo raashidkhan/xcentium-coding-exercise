@@ -8,33 +8,32 @@
     flex-direction: column;
     gap: 2rem;
   }
-  .logo {
-    svg {
-      width: 12rem;
+}
+.header .logo svg {
+  width: 12rem;
 
-      @media (max-width: 768px) {
-        width: auto;
-        height: 6rem;
-      }
-    }
+  @media (max-width: 768px) {
+    width: auto;
+    height: 6rem;
   }
-  ul {
-    display: flex;
-    list-style: none;
-    gap: 1.2rem;
-    flex-wrap: wrap;
-    justify-content: center;
+}
 
-    li {
-      white-space: nowrap;
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-      a {
-        font-weight: 500;
-        &:hover {
-          text-decoration: underline;
-          color: rgb(229, 9, 20);
-        }
-      }
-    }
+.header ul li {
+  white-space: nowrap;
+}
+
+.header ul li a {
+  font-weight: 500;
+  &:hover {
+    text-decoration: underline;
+    color: rgb(229, 9, 20);
   }
 }
