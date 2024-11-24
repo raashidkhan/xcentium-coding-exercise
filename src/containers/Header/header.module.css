@@ -10,7 +10,7 @@
   }
   .logo {
     svg {
-      width: 20rem;
+      width: 12rem;
 
       @media (max-width: 768px) {
         width: auto;
@@ -21,7 +21,10 @@
   ul {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
     li {
       white-space: nowrap;
 

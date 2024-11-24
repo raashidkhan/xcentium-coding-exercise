@@ -1,15 +1,10 @@
+"use client";
 import React from "react";
 
 const LogoMobile = () => {
   return (
     <div>
-      <svg
-        className="n-logo-svg"
-        focusable="false"
-        viewBox="225 0 552 1000"
-        ariaHidden="true"
-        dataUia="n-logo"
-      >
+      <svg className="n-logo-svg" focusable="false" viewBox="225 0 552 1000">
         <defs>
           <radialGradient
             id=":R2d6l9kl4l:-a"

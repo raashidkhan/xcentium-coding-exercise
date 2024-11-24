@@ -1,14 +1,16 @@
 "use client";
 
 import PageLayout from "@/containers/Layout";
-import MovieList from "@/containers/MovieList";
+import MovieDetail from "@/containers/MovieDetail";
 
-export default function Home() {
+const MovieDetailsPage = () => {
   return (
     <div className="wrapper">
       <PageLayout>
-        <MovieList />
+        <MovieDetail />
       </PageLayout>
     </div>
   );
-}
+};
+
+export default MovieDetailsPage;
